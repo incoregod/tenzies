@@ -7,7 +7,6 @@ import ScoresScreen from "./Pages/ScoresScreen/ScoresScreen";
 
 function App() {
   const [hasLoaded, setHasLoaded] = useState(false);
-
   const navigate = useNavigate();
 
   const element = useRoutes([
